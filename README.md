@@ -2,6 +2,7 @@
 
 Greendale is a smart chatbot designed to assist farmers with agricultural advice, updates, and tips. It features a responsive interface for rural accessibility and ease of use.
 
+**!!!BACKEND CODE** : https://github.com/Uwanaaa/Greendale-backend
 
 ## 📸 Screenshots
 
