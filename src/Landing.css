@@ -1,0 +1,149 @@
+.landing-container {
+    background-color: #191a1b;
+    color: white;
+    min-height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header */
+  .landing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #191a1b;
+    border-bottom: 1px solid #2d2f36;
+  }
+  
+  .header-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-icon {
+    font-size: 30px;
+    color: #2d6a4f;
+    margin-left: 600px;
+  }
+  
+  .header-title {
+    font-size: 25px;
+    font-family: cursive;
+    color: white;
+  }
+  
+  .header-nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    color: #2d6a4f;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-link:hover {
+    color: white;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .hero-subtitle {
+    font-size: 20px;
+    color: #ccc;
+    margin-bottom: 30px;
+    max-width: 600px;
+  }
+  
+  .hero-cta {
+    padding: 12px 24px;
+    background-color: #2d6a4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .hero-cta:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Features Section */
+  .features-section {
+    padding: 60px 40px;
+    background-color: #26292b;
+    text-align: center;
+  }
+  
+  .features-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: white;
+  }
+  
+  .features-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card {
+    background-color: #191a1b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    border: 1px solid #2d6a4f;
+  }
+  
+  .feature-icon {
+    font-size: 40px;
+    color: #2d6a4f;
+    margin-bottom: 15px;
+  }
+  
+  .feature-card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .feature-card p {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  /* Footer */
+  .landing-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #191a1b;
+    border-top: 1px solid #2d2f36;
+  }
+  
+  .landing-footer p {
+    font-size: 14px;
+    color: #ccc;
+  }
